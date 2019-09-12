@@ -6,15 +6,11 @@ public class Bj_ex8393 {
 		Scanner scanner = new Scanner(System.in);
 		int n = scanner.nextInt();
 		int sum=0;
-		int i;
-		while(i<=n) {
 			for(int i=1; i<=n; i++) {
 				sum+=i;
 			}
-
+			System.out.println(sum);
+			scanner.close();
 		}
-		System.out.println(sum);
-		scanner.close();
-	}
 
-}
+	}
